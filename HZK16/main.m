@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         HZK16Helper *helper = [HZK16Helper new];
-        [helper generateDotMatrix:@"美"];
+        [helper generateDotMatrix:@"凌"];
     }
     return 0;
 }

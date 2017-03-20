@@ -30,6 +30,7 @@
     }
     [handle seekToFileOffset:offset];
     NSData *data = [handle readDataOfLength:32];
+    [handle closeFile];
     char buffer[32];
     [data getBytes:buffer length:32];
     char key[8] = {

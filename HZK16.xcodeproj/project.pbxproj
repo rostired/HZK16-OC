@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CF033EC1E801D8900146724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF033EB1E801D8900146724 /* main.m */; };
+		5CF033F51E801EAE00146724 /* HZK16Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF033F41E801EAE00146724 /* HZK16Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5CF033E81E801D8900146724 /* HZK16 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HZK16; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF033EB1E801D8900146724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF033F31E801EAE00146724 /* HZK16Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZK16Helper.h; sourceTree = "<group>"; };
+		5CF033F41E801EAE00146724 /* HZK16Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZK16Helper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5CF033EB1E801D8900146724 /* main.m */,
+				5CF033F31E801EAE00146724 /* HZK16Helper.h */,
+				5CF033F41E801EAE00146724 /* HZK16Helper.m */,
 			);
 			path = HZK16;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF033F51E801EAE00146724 /* HZK16Helper.m in Sources */,
 				5CF033EC1E801D8900146724 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

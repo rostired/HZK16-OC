@@ -2,16 +2,17 @@
 //  main.m
 //  HZK16
 //
-//  Created by 叶凌波 on 17/3/20.
+//  Created by Rostired on 17/3/20.
 //  Copyright © 2017年 rostired. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "HZK16Helper.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        HZK16Helper *helper = [HZK16Helper new];
+        [helper generateDotMatrix:@"美"];
     }
     return 0;
 }
